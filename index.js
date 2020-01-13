@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const version = '1.0.5'
-const token = 'NjY1NzczMDI5ODQxNjk4ODM5.XhuvSA.JXhAlEqgVhmLiqNiPAcsmLnD9RQ';
 
 const prefix = '!';
 
@@ -85,4 +84,4 @@ bot.on ('message', msg=>{
         }
     });
 
-bot.login(token);
+bot.login('NjY1NzczMDI5ODQxNjk4ODM5.XhuvSA.JXhAlEqgVhmLiqNiPAcsmLnD9RQ');
